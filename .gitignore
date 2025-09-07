@@ -1,0 +1,6 @@
+# Directories
+.glacierenv
+.__pycache__
+
+#Utils Files
+commit.sh
