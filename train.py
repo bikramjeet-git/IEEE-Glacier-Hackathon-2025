@@ -101,7 +101,7 @@ def train_model(train_loader, val_loader, device, epochs=20, lr=1e-3):
 
 
 if __name__ == "__main__":
-    dataset = GlacierDataset("path/to/train_dataset")
+    dataset = GlacierDataset("Train")
     train_size = int(0.8 * len(dataset))
     val_size = len(dataset) - train_size
     train_ds, val_ds = random_split(dataset, [train_size, val_size])
