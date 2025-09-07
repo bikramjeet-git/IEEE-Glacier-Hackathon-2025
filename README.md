@@ -1,5 +1,5 @@
 ## Please Follow this Protocol to avoid unexpected bugs
-Python 3.10 has been used.
+Python 3.10.7 has been used.
 
 ### For installing modules from requirements.txt
 ```
